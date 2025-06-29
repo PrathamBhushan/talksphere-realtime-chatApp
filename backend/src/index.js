@@ -13,6 +13,8 @@ import { app, server } from "./lib/socket.js";
 
 dotenv.config();
 
+console.log("✅ Loaded updated index.js without /: route");
+
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
